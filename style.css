@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: "Times New Roman", Times, Serif;
+    font-size: 100%;
+}
+#header{
+    background: aqua;
+    width: 100%;
+    height: 200px;
+}
+#logo{
+    background: darkgoldenrod;
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+#banner{
+    background: bisque;
+    width: 70%;
+    height: 200px;
+    float: left;
+}
+#header-link{
+    background: chartreuse;
+    width: 100%;
+    height: 50px;
+}
+#header-link-menu{
+    width: 80%;
+    height: 50px;
+    float: left;
+    background: aqua;
+}
+#header-link ul{
+    margin: 0px;
+}
+#header-link ul li{
+    height: 35px;
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px 0px 0px;
+    border-right: 2px solid black;
+    padding: 15px 10px 0 0;
+}
+#header-link ul li a{
+    color: blue;
+    text-decoration: none;
+}
+#header-link ul li a:hover{
+    color: red;
+}
+#header-link-search{
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+#search{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px 0px 0px 20px;
+}
+#left{
+    float: left;
+    background: bisque;
+    width: 20%;
+    height: 700px;
+}
+#left-menu{
+    width: 100%;
+    height: 40%;
+    background: coral;
+}
+#left-menu h1{
+    margin: 0;
+    padding: 20px 0 0 20px;
+}
+#left-menu a{
+    color: blue;
+    text-decoration: none;
+}
+#left-menu a:hover{
+    color: red;
+}
+#left-menu ul li{
+    list-style-type: none;
+    padding: 10px 0 0 0 ;
+}
+#left-unknown{
+    width: 100%;
+    height: 60%;
+    background: darkorange;
+}
+#content{
+    float: left;
+    background: blue;
+    width: 60%;
+    height: 700px;
+}
+#content-top{
+    width: 100%;
+    height: 30%;
+}
+#content-top-hot-news{
+    background: cyan;
+}
+#content-top-photo-slide{
+    background: blueviolet;
+}
+#content-main{
+    width: 100%;
+    height: 70%;
+    background: darkgreen;
+}
+.new{
+    width: 29%;
+    height: 40%;
+    float: left;
+    margin: 15px;
+    background: aliceblue;
+}
+#right{
+    float: left;
+    background: crimson;
+    width: 20%;
+    height: 700px;
+}
+#bottom{
+    background: black;
+    width: 100%;
+    height: 200px;
+    clear: both;
+}
